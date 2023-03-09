@@ -1,6 +1,5 @@
 const Sauce = require('../models/Sauce');
 
-
 exports.likeSauce = (req, res, next) => {  
   
   const sauceLikeObject = req.body;
